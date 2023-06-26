@@ -325,7 +325,7 @@ End=$(date +"%s")
 Diff=$(($End - $Start))
 }
 
-make O=out ARCH=arm64 daisy_defconfig
+make O=out ARCH=arm64 sakura_defconfig
 build_kernel
 
 ##------------------------------------------------------##
